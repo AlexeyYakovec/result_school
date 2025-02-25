@@ -59,6 +59,8 @@ body {
 
 .create-task-block {
     position: relative;
+    display: flex;
+    gap: 5px;
 }
 
 .create-task-block__input {
@@ -276,4 +278,8 @@ body {
 .delete-modal__confirm-button {
     background-color: var(--delete-button-background);
     border: 1px solid var(--delete-button-background);
+}
+
+.theme-toggle-button {
+  margin-left: auto; 
 }
